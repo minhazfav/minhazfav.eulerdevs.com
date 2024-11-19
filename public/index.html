@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>minhazfav</title>
     <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="../src/custom.css">
 </head>
+
 <body class="max-w-full">
     <!-- Header Start -->
     <header class=" bg-base-200 flex justify-center">
@@ -15,8 +17,8 @@
                 <div class="dropdown">
                     <!-- Toggle button -->
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden" id="dropdown-toggle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            class="inline-block h-6 w-6 stroke-current">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
@@ -39,42 +41,51 @@
 
                 <!-- Logo -->
                 <div class="w-10 rounded-full">
-                    <img alt="Md Minhazul Abedin" class="w-full"
-                        src="https://eulerdevs.com/wp-content/uploads/2024/11/cropped_image-1.png" />
+                    <img alt="Md Minhazul Abedin" class="w-full" src="../src/assets/icon.png" />
                 </div>
 
                 <!-- Brand Name -->
                 <a class="btn btn-ghost text-xl">Md Minhazul Abedin</a>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
+                <ul class="menu menu-horizontal px-1 text-lg">
+                    <li><a href="https://minhazfav.eulerdevs.com">Home</a></li>
                     <li>
                         <details>
-                            <summary>Parent</summary>
+                            <summary>Blog</summary>
                             <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
+                                <li><a>Blogspot</a></li>
+                                <li><a>Wordpress</a></li>
+                                <li><a>MERN Stack</a></li>
+                                <li><a>Linux</a></li>
                             </ul>
                         </details>
                     </li>
-                    <li><a>Item 3</a></li>
+                    <li><a>Projects</a></li>
+                    <li><a>Contact</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
-                <p class="mr-1 invisible md:visible lg:visible">Change Theme</p>
+                <div class="flex mr-3">
+                    <a href="https://www.facebook.com/minhazfav.facebook"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="h-6 w-6 invisible" viewBox="0 0 48 48">
+                        <linearGradient id="Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1" x1="9.993" x2="40.615" y1="9.993" y2="40.615" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2aa4f4"></stop><stop offset="1" stop-color="#007ad9"></stop></linearGradient><path fill="url(#Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1)" d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"></path><path fill="#fff" d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z"></path>
+                        </svg></a>
+                    <a href="https://www.linkedin.com/in/minhazfav/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="h-7 w-7" viewBox="0 0 48 48">
+                        <path fill="#0288d1" d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"></path><path fill="#fff" d="M14 19H18V34H14zM15.988 17h-.022C14.772 17 14 16.11 14 14.999 14 13.864 14.796 13 16.011 13c1.217 0 1.966.864 1.989 1.999C18 16.11 17.228 17 15.988 17zM35 24.5c0-3.038-2.462-5.5-5.5-5.5-1.862 0-3.505.928-4.5 2.344V19h-4v15h4v-8c0-1.657 1.343-3 3-3s3 1.343 3 3v8h4C35 34 35 24.921 35 24.5z"></path>
+                        </svg></a>
+                </div>
                 <label class="swap swap-rotate">
                     <!-- Hidden checkbox controls the state -->
                     <input type="checkbox" id="theme-toggle" class="theme-controller" />
 
                     <!-- Sun icon -->
-                    <svg class="swap-off h-10 w-10 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <svg class="swap-off h-8 w-8 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <path
                             d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
                     </svg>
 
                     <!-- Moon icon -->
-                    <svg class="swap-on h-10 w-10 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <svg class="swap-on h-7 w-7 fill-current mr-3 mt-[2px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <path
                             d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
                     </svg>
@@ -88,9 +99,8 @@
     <!-- Hero Start -->
     <div class="hero min-h-min py-0 lg:py-12">
         <div class="hero-content flex-col lg:flex-row-reverse">
-            <img src="https://eulerdevs.com/wp-content/uploads/2024/11/New-sohag.png"
-                class="max-w-sm rounded-lg shadow-2xl" />
-            <div class="max-w-full lg:max-w-[50%]">
+            <img src="../src/assets/minhazfav.png" class="fade-in-right max-w-sm rounded-lg shadow-2xl" />
+            <div class="fade-in-left max-w-full lg:max-w-[50%]">
                 <p class="text-sm mb-2 uppercase">Welcome to my world</p>
                 <h1 class="text-3xl lg:text-5xl font-bold">Hi, I’m Minhazul Abedin <br>
                     a
@@ -201,6 +211,6 @@
         // Theme Controller End
 
     </script>
-    </body>
+</body>
 
 </html>
