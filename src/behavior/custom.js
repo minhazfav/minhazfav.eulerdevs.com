@@ -85,5 +85,89 @@ window.addEventListener("load", () => {
 // Theme Controller End
 
 
+// Stack Animation Start
 
+
+// Blogspot Stact
+document.addEventListener("DOMContentLoaded", function () {
+  const stackContainer = document.querySelector("#stack-container-blogspot");
+  const elements = stackContainer.querySelectorAll("*");
+
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              elements.forEach(el => el.classList.add("show"));
+          }
+      });
+  }, { threshold: 1.0 }); // 1.0 means 100% visibility
+
+  elements.forEach(el => el.classList.add("fade-in"));
+  observer.observe(stackContainer);
+});
+
+// Wordpress Stack
+document.addEventListener("DOMContentLoaded", function () {
+  const stackContainer = document.querySelector("#stack-container-wordpress");
+  const elements = stackContainer.querySelectorAll("*");
+
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              elements.forEach(el => el.classList.add("show"));
+          }
+      });
+  }, { threshold: 1.0 }); // 1.0 means 100% visibility
+
+  elements.forEach(el => el.classList.add("fade-in"));
+  observer.observe(stackContainer);
+});
+
+// MERN Stack
+document.addEventListener("DOMContentLoaded", function () {
+  const stackContainer = document.querySelector("#stack-container-mern");
+  const elements = stackContainer.querySelectorAll("*");
+
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              elements.forEach(el => el.classList.add("show"));
+          }
+      });
+  }, { threshold: 1.0 }); // 1.0 means 100% visibility
+
+  elements.forEach(el => el.classList.add("fade-in"));
+  observer.observe(stackContainer);
+});
+
+// Stack End
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Select the theme toggle input and the target elements
+  const themeToggle = document.getElementById("theme-toggle");
+  const vbOne = document.getElementById("vb-one");
+  const vbTwo = document.getElementById("vb-two");
+
+  // Function to update the class based on the theme
+  function updateTheme() {
+      if (themeToggle.checked) {
+          // If the theme is "dark", add the "vertical-bar-light" class
+          vbOne.classList.remove("vertical-bar-light");
+          vbTwo.classList.remove("vertical-bar-light");
+          vbOne.classList.add("vertical-bar-dark");
+          vbTwo.classList.add("vertical-bar-dark");
+      } else {
+          // If the theme is "light", add the "vertical-bar-dark" class
+          vbOne.classList.remove("vertical-bar-dark");
+          vbTwo.classList.remove("vertical-bar-dark");
+          vbOne.classList.add("vertical-bar-light");
+          vbTwo.classList.add("vertical-bar-light");
+      }
+  }
+
+  // Set the initial theme based on the toggle state
+  updateTheme();
+
+  // Add an event listener to toggle the theme when the checkbox is clicked
+  themeToggle.addEventListener("change", updateTheme);
+});
 

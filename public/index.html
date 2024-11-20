@@ -11,7 +11,7 @@
 
 <body class="max-w-full">
     <!-- Header Start -->
-    <header class=" bg-base-200 flex justify-center">
+    <header class=" bg-base-200 flex justify-center items-center">
         <div class="navbar max-w-7xl">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -40,12 +40,14 @@
                 </div>
 
                 <!-- Logo -->
-                <div class="w-10 rounded-full">
-                    <img alt="Md Minhazul Abedin" class="w-full" src="../src/assets/icon.png" />
+                <div class="flex justify-center items-center ml-4">
+                    <div class="w-10 rounded-full">
+                        <img alt="Md Minhazul Abedin" class="w-full" src="../src/assets/icon.png" />
+                    </div>
+    
+                    <!-- Brand Name -->
+                    <a class="btn btn-ghost text-xl">Md Minhazul Abedin</a>
                 </div>
-
-                <!-- Brand Name -->
-                <a class="btn btn-ghost text-xl">Md Minhazul Abedin</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1 text-lg">
@@ -135,18 +137,17 @@
     <!-- Hero End -->
 
     <!-- Stack Start -->
-     
-    <div style="margin: 0 auto;" class="max-w-7xl flex flex-col">
+    <div style="margin: 0 auto;" class="max-w-6xl flex flex-col">
         <div>
-            <h2 class="text-center text-4xl py-12">My Web Stacks Technologis</h2>
+            <h2 class="text-center text-4xl py-12">My Stack Technologies</h2>
         </div>
-        <div class="flex h-[500px] justify-center gap-2 stact-container bg-red-600" id="stac">
-            <div class="rounded-b-lg rounded-t-lg h-[98%] bg-base-100 w-96 shadow-xl">
-                <figure class="px-10 pt-10 fade-in-down-stack-tech-image">
+        <div class="flex flex-col lg:flex-row h-fit md:h-fit lg:h-[500px] justify- lg:justify-center items-center lg:items-start gap-[9.5px] stack-container bg-red-600 ">
+            <div class="rounded-b-lg rounded-t-lg h-[98%] bg-base-100 w-80 lg:w-[347px] md:w-[80px] shadow-xl mt-4 lg:mt-0" id="stack-container-blogspot">
+                <figure class="px-10 pt-10">
                     <img src="../src/assets/blogger-logo.png" alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                    <p class="my-8 text-xl tracking-wide flex items-center fade-in-down-stack-tech"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    <p class="my-8 text-xl tracking-wide flex items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                             width="100" height="100" viewBox="0 0 48 48">
                             <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
                             <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
@@ -177,17 +178,17 @@
                         </svg>
                     </p>
                     <div class="card-actions">
-                        <button class="btn btn-primary fade-in-down-stack">Hire Me Now</button>
+                        <button class="btn btn-primary">Hire Me Now</button>
                     </div>
                 </div>
             </div>
-            <span class="vertical-bar"></span>
-            <div class="rounded-b-lg rounded-t-lg h-[98%] bg-base-100 w-96 shadow-xl">
-                <figure class="px-10 pt-10 fade-in-down-stack-tech-image">
+            <span class="invisible md:invisible lg:visible" id="vb-one"></span>
+            <div class="rounded-b-lg rounded-t-lg h-[98%] bg-base-100 w-80 lg:w-[347px] md:w-[80px] shadow-xl" id="stack-container-wordpress">
+                <figure class="px-10 pt-10">
                     <img src="../src/assets/blogger-logo.png" alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                    <p class="my-8 text-xl tracking-wide flex items-center fade-in-down-stack-tech"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    <p class="my-8 text-xl tracking-wide flex items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                             width="100" height="100" viewBox="0 0 48 48">
                             <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
                             <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
@@ -218,17 +219,17 @@
                         </svg>
                     </p>
                     <div class="card-actions">
-                        <button class="btn btn-primary fade-in-down-stack">Hire Me Now</button>
+                        <button class="btn btn-primary">Hire Me Now</button>
                     </div>
                 </div>
             </div>
-            <span class="vertical-bar"></span>
-            <div class="rounded-b-lg rounded-t-lg h-[98%] bg-base-100 w-96 shadow-xl">
-                <figure class="px-10 pt-10 fade-in-down-stack-tech-image">
+            <span class="invisible md:invisible lg:visible" id="vb-two"></span>
+            <div class="rounded-b-lg rounded-t-lg h-[98%] bg-base-100 w-80 md:w-[80px] lg:w-[347px] shadow-xl mb-4 lg:mb-0" id="stack-container-mern">
+                <figure class="px-10 pt-10">
                     <img src="../src/assets/blogger-logo.png" alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                    <p class="my-8 text-xl tracking-wide flex items-center fade-in-down-stack-tech"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    <p class="my-8 text-xl tracking-wide flex items-center"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                             width="100" height="100" viewBox="0 0 48 48">
                             <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
                             <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
@@ -259,11 +260,10 @@
                         </svg>
                     </p>
                     <div class="card-actions">
-                        <button class="btn btn-primary fade-in-down-stack">Hire Me Now</button>
+                        <button class="btn btn-primary">Hire Me Now</button>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
