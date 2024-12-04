@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 function DropdownMenu() {
   // State to manage the visibility of the dropdown menu
@@ -37,10 +37,15 @@ function DropdownMenu() {
       {/* Dropdown menu */}
       <ul
         id="dropdown-menu"
-        className={`menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ${isOpen ? '' : 'hidden'}`} // Toggle 'hidden' class based on state
+        className={`menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ${
+          isOpen ? "" : "hidden"
+        }`} // Toggle 'hidden' class based on state
       >
         <li>
-          <a href="https://minhazfav.eulerdevs.com" className="text-lg md:text-2xl">
+          <a
+            href="https://minhazfav.eulerdevs.com"
+            className="text-lg md:text-2xl"
+          >
             Home
           </a>
         </li>
