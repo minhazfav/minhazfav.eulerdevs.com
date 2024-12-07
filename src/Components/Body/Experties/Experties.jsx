@@ -35,6 +35,7 @@ const Experties = () => {
     { icon: <SiExpress className="text-4xl text-rose-600" />, delay: 2.4 },
     { icon: <FaNodeJs className="text-4xl text-rose-600" />, delay: 2.6 },
   ];
+  
 
   return (
     <div style={{ margin: "0 auto" }} className="max-w-6xl flex flex-col pb-12">
