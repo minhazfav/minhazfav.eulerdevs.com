@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const Typewriter = () => {
-  const phrases = ["Web Developer.", "Coding Enthusiast."];
+  const phrases = ["Web Developer.", "Physics Enthusiast.", "Football Fan."];
   const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);

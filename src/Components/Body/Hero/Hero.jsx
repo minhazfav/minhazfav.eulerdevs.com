@@ -39,13 +39,13 @@ const Hero = () => {
             Hi, I’m Minhazul Abedin <br /> a <Typewriter />
           </h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+          I serve as the lead developer at <a target="_blank" href="http://eulerdevs.com">Euler Developers</a> . I am passionate about physics and its derivatives, and a lifelong supporter of the <a target="_blank" href="https://en.wikipedia.org/wiki/Brazilian_Football_Confederation">Brazilian national football team</a> and <a target="_blank" href="https://www.realmadrid.com/en-US">Real Madrid CF</a>. 
           </p>
+          <div className="flex justify-center md:justify-start">
           <button className="btn btn-primary">
-            <a href="mailto:minhazfav@eulerdevs.com">Hire Me</a>
+            <a href="mailto:minhazfav@eulerdevs.com">Mail Me</a>
           </button>
+          </div>
         </div>
       </div>
     </div>

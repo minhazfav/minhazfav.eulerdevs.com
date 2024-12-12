@@ -45,32 +45,16 @@ function DropdownMenu() {
           <a
             href="https://minhazfav.eulerdevs.com"
             className="text-lg md:text-2xl"
-          >
-            Home
-          </a>
+          >Home</a>
         </li>
         <li>
-          <a className="text-lg md:text-2xl">Blog</a>
-          <ul className="p-2">
-            <li>
-              <a className="text-lg md:text-2xl">CSS</a>
-            </li>
-            <li>
-              <a className="text-lg md:text-2xl">React</a>
-            </li>
-            <li>
-              <a className="text-lg md:text-2xl">NodeJS</a>
-            </li>
-            <li>
-              <a className="text-lg md:text-2xl">Linux</a>
-            </li>
-          </ul>
+          <a className="text-lg md:text-2xl">Computer</a>
         </li>
         <li>
-          <a className="text-lg md:text-2xl">Projects</a>
+          <a className="text-lg md:text-2xl">Physics</a>
         </li>
         <li>
-          <a className="text-lg md:text-2xl">Contact</a>
+          <a className="text-lg md:text-2xl">Football</a>
         </li>
       </ul>
     </div>
