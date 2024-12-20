@@ -54,7 +54,7 @@ function DropdownMenu() {
           <a className="text-lg md:text-2xl">Physics</a>
         </li>
         <li>
-          <a className="text-lg md:text-2xl">Football</a>
+          <a className="text-lg md:text-2xl">Philosophy</a>
         </li>
       </ul>
     </div>

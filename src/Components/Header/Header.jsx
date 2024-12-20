@@ -33,7 +33,7 @@ const Header = () => {
               <a href="https://minhazfav.eulerdevs.com">Physics</a>
             </li>
             <li>
-              <a href="https://minhazfav.eulerdevs.com">Football</a>
+              <a href="https://minhazfav.eulerdevs.com">Philosophy</a>
             </li>
           </ul>
         </div>
