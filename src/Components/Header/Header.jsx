@@ -23,17 +23,17 @@ const Header = () => {
         </div>
         <div className="navbar-center hidden lg:flex ml-28">
           <ul className="menu menu-horizontal px-1 text-lg">
-            <li>
-              <a href="https://minhazfav.eulerdevs.com">Home</a>
+          <li>
+              <a>Home</a>
             </li>
             <li>
-              <a href="https://minhazfav.eulerdevs.com">Computer</a>
+              <a>Theoretical</a>
             </li>
             <li>
-              <a href="https://minhazfav.eulerdevs.com">Physics</a>
+              <a>Mathematical</a>
             </li>
             <li>
-              <a href="https://minhazfav.eulerdevs.com">Philosophy</a>
+              <a>Computational</a>
             </li>
           </ul>
         </div>

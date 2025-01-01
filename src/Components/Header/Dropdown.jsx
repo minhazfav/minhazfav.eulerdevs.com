@@ -42,19 +42,16 @@ function DropdownMenu() {
         }`} // Toggle 'hidden' class based on state
       >
         <li>
-          <a
-            href="https://minhazfav.eulerdevs.com"
-            className="text-lg md:text-2xl"
-          >Home</a>
+          <a className="text-lg md:text-2xl">Home</a>
         </li>
         <li>
-          <a className="text-lg md:text-2xl">Computer</a>
+          <a className="text-lg md:text-2xl">Theoretical</a>
         </li>
         <li>
-          <a className="text-lg md:text-2xl">Physics</a>
+          <a className="text-lg md:text-2xl">Mathematical</a>
         </li>
         <li>
-          <a className="text-lg md:text-2xl">Philosophy</a>
+          <a className="text-lg md:text-2xl">Computational</a>
         </li>
       </ul>
     </div>
